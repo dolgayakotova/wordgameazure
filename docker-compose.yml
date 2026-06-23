@@ -1,16 +1,1 @@
-version: "3.9"
-
-services:
-  backend:
-    build: ./backend
-    container_name: wordgame-backend
-    ports:
-      - "3001:3001"
-
-  frontend:
-    build: ./frontend
-    container_name: wordgame-frontend
-    ports:
-      - "8080:80"
-    depends_on:
-      - backend
+azure-terminology-trainer/ │ ├── docker-compose.yml ├── .gitignore ├── LICENSE ├── README.md │ ├── backend/ │   ├── Dockerfile │   ├── package.json │   ├── tsconfig.json │   ├── .dockerignore │   └── src/ │       └── server.ts │ ├── frontend/ │   ├── Dockerfile │   ├── package.json │   ├── tsconfig.json │   ├── vite.config.ts │   ├── .dockerignore │   ├── nginx.conf │   └── src/ │ └── .github/ └── workflows/

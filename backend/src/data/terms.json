@@ -1,0 +1,61 @@
+[
+    {
+        "id": 1,
+        "term": "Virtual Machine",
+        "definition": "Azure compute resource used to run Windows or Linux operating systems.",
+        "category": "Compute",
+        "exam": "AZ-104",
+        "difficulty": 1,
+        "keywords": [
+            "vm",
+            "compute"
+        ]
+    },
+    {
+        "id": 2,
+        "term": "Virtual Network",
+        "definition": "Logical isolation of Azure networking resources.",
+        "category": "Networking",
+        "exam": "AZ-104",
+        "difficulty": 1,
+        "keywords": [
+            "vnet",
+            "network"
+        ]
+    },
+    {
+        "id": 3,
+        "term": "Availability Zone",
+        "definition": "Physically separate datacenters inside one Azure region.",
+        "category": "Infrastructure",
+        "exam": "AZ-305",
+        "difficulty": 2,
+        "keywords": [
+            "ha",
+            "zone"
+        ]
+    },
+    {
+        "id": 4,
+        "term": "Azure Firewall",
+        "definition": "Managed stateful network firewall service.",
+        "category": "Security",
+        "exam": "AZ-104",
+        "difficulty": 2,
+        "keywords": [
+            "firewall"
+        ]
+    },
+    {
+        "id": 5,
+        "term": "Azure Policy",
+        "definition": "Service used to enforce governance rules across Azure resources.",
+        "category": "Governance",
+        "exam": "AZ-305",
+        "difficulty": 3,
+        "keywords": [
+            "policy",
+            "governance"
+        ]
+    }
+]
